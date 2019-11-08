@@ -8,7 +8,7 @@ class YoutubePlayer extends Component{
     super()
     this.state = {
       query: 'speed',
-      url: `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&key=${process.env.YOUTUBE_KEY}&q=`,
+      url: `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&key=AIzaSyCYchlTicuWz3_usJZyluJKkW0S6OAoh7E&q=`,
       firstVideoId: '',
       suggestedVideos: []
     }
